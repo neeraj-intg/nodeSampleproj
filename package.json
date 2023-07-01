@@ -9,6 +9,7 @@
     "build": "npm run lint && npm run transpile"
   },
   "devDependencies": {
+    "eslint": "^7.32.0",
     "mocha": "^9.1.3"
   }
 }
