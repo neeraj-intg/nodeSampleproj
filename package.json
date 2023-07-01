@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node src/index.js",
     "test": "mocha tests/*.test.js",
-    "deploy": "echo 'Deploying the application...'"
+    "deploy": "echo 'Deploying the application...'",
+    "build": "echo 'Building the application...'"
   },
   "devDependencies": {
     "mocha": "^9.1.3"
