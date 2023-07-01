@@ -6,10 +6,11 @@
     "start": "node src/index.js",
     "test": "mocha tests/*.test.js",
     "deploy": "echo 'Deploying the application...'",
-    "build": "echo 'Building the application...'"
+    "build": "npm run lint && npm run transpile"
   },
   "devDependencies": {
     "mocha": "^9.1.3"
   }
 }
+
 
