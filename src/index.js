@@ -1,3 +1,3 @@
 const { greet } = require('./utils');
 
-console.log(greet('John'));
+console.log(greet('Neeraj Olihan'));
