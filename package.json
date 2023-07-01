@@ -1,0 +1,14 @@
+{
+  "name": "my-node-project",
+  "version": "1.0.0",
+  "description": "A sample Node.js project",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha tests/*.test.js",
+    "deploy": "echo 'Deploying the application...'"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  }
+}
+
